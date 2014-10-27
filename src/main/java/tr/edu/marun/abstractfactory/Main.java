@@ -6,7 +6,7 @@
 package tr.edu.marun.abstractfactory;
 
 import tr.edu.marun.abstractfactory.factory.AbstractFactory;
-import tr.edu.marun.abstractfactory.factory.impl.FactoryA;
+import tr.edu.marun.abstractfactory.factory.impl.FactoryB;
 import tr.edu.marun.abstractfactory.model.Product;
 
 /**
@@ -16,7 +16,7 @@ import tr.edu.marun.abstractfactory.model.Product;
 public class Main {
 
     public static void main(String[] args) {
-        AbstractFactory factory = FactoryA.getInstance();
+        AbstractFactory factory = FactoryB.getInstance();
 
         Product product = factory.createProduct();
 

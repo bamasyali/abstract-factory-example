@@ -13,6 +13,10 @@ import tr.edu.marun.abstractfactory.model.Product;
  */
 public class ProductB implements Product {
 
+    public ProductB() {
+        System.out.println("ProductB Constructed");
+    }
+
     @Override
     public String toString() {
         return "ProductB{" + '}';
